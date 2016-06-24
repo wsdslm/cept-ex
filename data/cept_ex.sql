@@ -5,6 +5,6 @@ CREATE TABLE `post` (
   `cid` int(11) DEFAULT NULL,
   `title` varchar(200) DEFAULT NULL,
   `content` text,
-  `created_ta` int(11) DEFAULT NULL,
+  `created_at` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
