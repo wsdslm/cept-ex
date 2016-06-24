@@ -12,5 +12,9 @@ before_install:
 install:
   - composer install
 
+before_script:
+  - mysql -e 'CREATE DATABASE cept_ex;'
+  - mysql -u root < data/cept_ex.sql
+
 script:
   - vendor/bin/codecept run
