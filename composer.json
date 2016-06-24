@@ -1,0 +1,17 @@
+{
+    "name": "wsdslm/cept-ex",
+    "authors": [
+        {
+            "name": "wsdslm",
+            "email": "wsdslm@gmail.com"
+        }
+    ],
+    "require": {
+        "codeception/codeception": "2.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ws\\cept\\": ""
+        }
+    }
+}
